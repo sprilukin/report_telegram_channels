@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 ENTRYPOINT ["python3", "report.py"]
 
-VOLUME ["/nowarddos"]
+VOLUME ["/report_telegram_channels"]
